@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(161, 161, 161);
+    display: flex;
+    flex-direction: column;
+    min-height: 2000px;
+}
+section{
+    margin-top: 50px;
+}
+nav{
+    position: fixed;
+   height: 60px;
+   width: 100%;
+   background-color: rgba(0, 0, 0, .7);
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    color: rgb(254, 254, 255);
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+.middle{
+    display: flex;
+}
+.nav{
+    width: 100px;
+    height: 600px;
+    background-color: aqua;
+}
+.three{
+    display: flex;
+    justify-content: spa;
+    
+}
+.upper{
+    width:352.5px;
+    background-color: rgb(10, 226, 118);
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+.upper1{
+    width:700px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    height: 200px;
+    font-size: 30px;
+}
+.upper2{
+    width:352px;
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+.bottom1{
+    width: 1400px;
+    height: 200px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 30px;
+}
+.bottom2{
+    width: 1400px;
+    height: 200px;
+    background-color: rgb(252, 112, 112);
+    text-align: center;
+    font-size: 30px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(101, 19, 207);
+    text-align: center;
+    font-size: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+  }
